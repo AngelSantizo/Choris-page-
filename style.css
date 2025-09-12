@@ -1,0 +1,81 @@
+main{
+    background-color: #2B2424;
+}
+
+.navbar-choris {
+    background: linear-gradient(to bottom, #ED7710, #2B2424);
+    font-family: "Dm Serif Text", serif;
+}
+
+.choris-header {
+    color: #E4E2E2 !important;
+}
+
+.container-md {
+    background-color: #2B2424;
+}
+
+.container-md h1 {
+    color: #E4E2E2;
+    font-family: "Dm Serif Text", serif;
+    font-size: 64px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    background-color: #2B2424;
+    padding-bottom: 28px;
+    margin-bottom: -3px;
+}
+
+.container h2 {
+    color: #E4E2E2;
+    font-family: "Inclusive sans", sans-serif;
+    font-size: 64px;
+    border: 4px solid #ED7710;
+    border-radius: 24px;
+    text-shadow: 
+    -2px -2px 0 #ED7710,  
+     2px -2px 0 #ED7710,
+    -2px  2px 0 #ED7710,
+     2px  2px 0 #ED7710;
+    margin-bottom: 32px;
+}
+
+.card {
+    margin-bottom: 32px;
+    border: none !important;
+    background-color: #2B2424 !important;
+}
+
+.card-body {
+    background-color: #2B2424;
+    color: #E4E2E2 !important;
+    font-family: "Dm Serif Text", sans-serif;
+}
+
+.card-title {
+    font-size: 32px;
+}
+
+.card-img-top {
+    border: 3px solid #ED7710;
+    border-radius: 12px !important;
+}
+
+.iframe-map {
+    aspect-ratio: 16/9;
+    min-height: 331px;
+    max-height: 450px;
+    border-radius: 12px;
+    border: 3px solid #ED7710;
+    background-color: #2B2424;
+}
+
+.footer-chori {
+    background: linear-gradient(to top, #ED7710, #2B2424);
+    height: 100px;
+    margin-top: 32px;
+}
+
+.waze-button {
+    font-family: "Inclusive Sans", sans-serif !important;
+}
