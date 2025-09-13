@@ -42,6 +42,9 @@ main{
     -2px  2px 0 #ED7710,
      2px  2px 0 #ED7710;
     margin-bottom: 32px;
+    box-shadow: -2px 18px 46px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 18px 46px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 18px 46px 1px rgba(0,0,0,0.75);
 }
 
 .card {
@@ -54,6 +57,10 @@ main{
     background-color: #2B2424;
     color: #E4E2E2 !important;
     font-family: "Dm Serif Text", sans-serif;
+}
+
+.card-menu {
+    text-align: justify;
 }
 
 .card-title {
@@ -80,6 +87,13 @@ main{
     margin-top: 32px;
 }
 
-.waze-button {
+.waze-button  {
     font-family: "Inclusive Sans", sans-serif !important;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.18) !important;
+    border-radius: 16px !important; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(2.8px) !important;
+        -webkit-backdrop-filter: blur(2.8px) !important;
+    border: 1px solid rgba(0, 0, 0, 0.07) !important;
 }
