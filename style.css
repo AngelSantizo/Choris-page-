@@ -47,6 +47,19 @@ main{
     -moz-box-shadow: -2px 18px 46px 1px rgba(0,0,0,0.75);
 }
 
+.alert {
+    font-family: "Inclusive Sans", sans-serif !important;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
 .card {
     margin-bottom: 32px;
     border: none !important;
