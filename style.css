@@ -6,9 +6,17 @@ main{
     background-color: #2B2424;
 }
 
+body {
+    background-color: #2B2424 !important;
+}
+
 .navbar-choris {
     background: linear-gradient(to bottom, #ED7710, #2B2424);
     font-family: "Dm Serif Text", serif;
+}
+
+.navbar>.container-fluid{
+    justify-content: space-around !important;
 }
 
 .choris-header {
