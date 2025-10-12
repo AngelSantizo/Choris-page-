@@ -76,12 +76,19 @@ body {
 }
 
 .btn {
-    background: rgba(255, 255, 255, 0.23);
+    background: #ed77102e !important;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.4px);
     -webkit-backdrop-filter: blur(6.4px);
-    border: 1px solid rgba(255, 255, 255, 0.14);
+    border: 1px solid #ed7710 !important;
+    width: 75%;
+}
+
+.masVendido{
+    background-color: #2b2424 !important;
+    border-color: #ed7710 !important;
+    color: #ed7710 !important;
 }
 
 .card {
