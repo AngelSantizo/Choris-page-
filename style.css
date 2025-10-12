@@ -33,6 +33,21 @@ body {
     font-size: 26px;
 }
 
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+
+.dropdown-menu {
+    --bs-dropdown-link-hover-bg: rgba(237, 119, 16, 0.6);
+}
+
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+    background-color: rgba(237, 119, 16, 0.8) !important;
+    color: #fff !important;
+}
+
 [id^="pruebalos-h2"], 
 [id^="conocenos-h2"], 
 [id^="ubicación-h2"] {
